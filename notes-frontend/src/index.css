@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Target the root html and body elements, or every element using the universal selector */
+* {
+    scrollbar-width: none;          /* Firefox */
+    -ms-overflow-style: none;       /* IE 10+ and Edge */
+}
+
+/* Target WebKit browsers (Chrome, Safari, Opera, Newer Edge) */
+*::-webkit-scrollbar {
+    display: none;                  /* Hides the scrollbar */
+    width: 0;                       /* Alternative safety fallback */
+    height: 0;
+}
